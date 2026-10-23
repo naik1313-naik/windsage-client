@@ -1,0 +1,27 @@
+{
+  "name": "windsage-client",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WindSage AI — wind turbine alarm intelligence web app",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "vercel-build": "npm run build",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "lucide-react": "^0.577.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.6.0",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^4.3.3",
+    "vite": "^6.2.0"
+  }
+}
